@@ -1,0 +1,20 @@
+{
+  "id": "com.anton.homescreen",
+  "version": "1.0.0",
+  "vendor": "anton",
+  "type": "web",
+  "main": "index.html",
+  "title": "Home",
+  "icon": "icon.png",
+  "largeIcon": "icon.png",
+  "bgColor": "#121214",
+  "iconColor": "#121214",
+  "resolution": "1920x1080",
+  "trustLevel": "default",
+  "disableBackHistoryAPI": true,
+  "requiredEULA": "generalTerms",
+  "requiredPermissions": ["all"],
+  "permissions": "all",
+  "requiredMemory": 20,
+  "networkStableTimeout": 1
+}

@@ -1,0 +1,7 @@
+# Shell scripts run on the TV must keep LF endings, even when checked out on Windows.
+*.sh  text eol=lf
+*.json text eol=lf
+*.html text eol=lf
+*.bat text eol=crlf
+*.png binary
+*.jpg binary

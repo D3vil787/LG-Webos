@@ -1,0 +1,5 @@
+# Script output on the PC
+windows/output/
+# Generated on the TV from the installed apps (their logos belong to their owners)
+app/com.anton.homescreen/icon_*.png
+app/com.anton.homescreen/icons.js
