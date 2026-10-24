@@ -40,6 +40,7 @@
 | `install-homescreen.bat` | Ставит главный экран, автозапуск и перехват кнопки Home |
 | `uninstall-homescreen.bat` | Полностью убирает главный экран |
 | `probe-keys.bat` | Только читает: 20 секунд записывает нажатия пульта, чтобы узнать код кнопки |
+| `screenshot.bat` | Снимает скриншот главного экрана в `windows\output\homescreen.jpg` |
 | `reboot.bat` | Перезагружает телевизор |
 
 Если после перезагрузки не открывается SSH, один раз откройте на телевизоре Homebrew Channel.
@@ -65,7 +66,7 @@ tv/uninstall.sh             удаление
 tv/copy-icons.sh            берёт иконки и фирменные цвета у установленных приложений
 tv/homescreen-watch.sh      фоновый скрипт: автозапуск и перехват кнопки Home
 tv/debloat.sh               список отключаемых служб (запускается при загрузке)
-tv/inventory.sh, probe-keys.sh   диагностика, только чтение
+tv/inventory.sh, probe-keys.sh, screenshot.sh   диагностика, только чтение
 windows/*.bat               запуск всего этого с ПК по SSH
 ```
 
